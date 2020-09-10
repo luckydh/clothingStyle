@@ -15,16 +15,16 @@ const CheckoutPage = ({ cartItems, total}) => (
                <span>Product</span>
            </div>
            <div className='header-block'>
-               <span>Product</span>
+               <span>Description</span>
            </div>
            <div className='header-block'>
-               <span>Product</span>
+               <span>Quantity</span>
            </div>
            <div className='header-block'>
-               <span>Product</span>
+               <span>Price</span>
            </div>
            <div className='header-block'>
-               <span>Product</span>
+               <span>Remove</span>
            </div>
        </div>
        {cartItems.map(cartItem => (
